@@ -1,0 +1,20 @@
+.cards-salazie {
+	display: flex;
+    flex-wrap: wrap;
+    margin: 0px;	
+
+}
+
+.card-salazie img {
+	width: 100% ;
+	height: auto;
+}
+
+@media (min-width: 768px) {
+  .card-salazie img {
+    width: 494px ;
+	height: 350px;
+    margin: 1px;
+   	flex-grow: 1;
+  }
+}

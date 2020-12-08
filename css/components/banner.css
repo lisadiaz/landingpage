@@ -1,0 +1,28 @@
+.banner{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url(../../images/chemin.jpg);
+	padding: 200px;
+	background-size: cover; 
+	background-position: center;
+	margin: 0px;	
+}
+
+.banner h1{
+	color: #8ba385;
+    font-size: xxx-large;
+    font-weight: 500;
+	margin: 0px;
+	text-align: center;
+}
+
+.banner h2{
+	color: #8ba385;
+	font-weight: 400;
+    font-size: 22px;
+    margin: 0px 50px;
+}
+
+@media (max-width: 767px) {
+	.banner{
+		padding: 100px;
+	}
+}

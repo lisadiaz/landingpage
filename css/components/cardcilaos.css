@@ -1,0 +1,17 @@
+.card-cilaos {
+  display: flex;
+}
+
+.card-cilaos img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .card-cilaos img {
+    width: 100%;
+    height: auto;
+    margin: 1px;
+    flex-grow: 1;
+  }
+}

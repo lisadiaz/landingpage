@@ -1,0 +1,10 @@
+.texte	{
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #8ba38505;
+    text-align: justify;
+}
+
+
